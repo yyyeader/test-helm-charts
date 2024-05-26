@@ -1,0 +1,7 @@
+# hellok8s-configmaps.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.application.name }}-config
+data:
+  DB_URL: {{ .Values.application.hellok8s.database.url }}
