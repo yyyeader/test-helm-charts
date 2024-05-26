@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hello-helm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-26T11:37:04.278514803Z"
+    description: FXD TEST!!!
+    digest: e81a2675e0489b93ef3880d86111e9d1032294359f2fdc4b690d0b5c88737b55
+    name: hello-helm
+    type: application
+    urls:
+    - https://github.com/yyyeader/test-helm-charts/releases/download/hello-helm-0.1.0/hello-helm-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-26T11:37:04.278585546Z"
